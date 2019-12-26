@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<w:CirclePage xmlns="http://xamarin.com/schemas/2014/forms"
+              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:w="clr-namespace:Tizen.Wearable.CircularUI.Forms;assembly=Tizen.Wearable.CircularUI.Forms"
+              x:Class="EasyTrackTizenAgent.AuthenticationPage"
+              NavigationPage.HasNavigationBar="False" 
+              >
+    <w:CirclePage.Content>
+        <StackLayout HorizontalOptions="CenterAndExpand" 
+                     VerticalOptions="CenterAndExpand"
+                     Spacing="13">
+
+            <w:PopupEntry x:Name="loginEntry"
+                          Placeholder="Username"
+                          Keyboard="Default"
+                          HorizontalTextAlignment="Center"
+                          HorizontalOptions="CenterAndExpand"
+                          WidthRequest="280"/>
+
+            <w:PopupEntry x:Name="passwordEntry"
+                          Keyboard="Default"
+                          IsPassword="true"
+                          Placeholder="Password"
+                          HorizontalTextAlignment="Center"
+                          HorizontalOptions="CenterAndExpand"
+                          WidthRequest="280"/>
+
+            <Button Text="Sign in"
+                    x:Name="signInButton"
+                    WidthRequest="200"
+                    Clicked="SignInClicked"
+                    HorizontalOptions="CenterAndExpand"
+                    Font="Large" />
+        </StackLayout>
+    </w:CirclePage.Content>
+</w:CirclePage>

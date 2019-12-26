@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c:CirclePage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:c="clr-namespace:Tizen.Wearable.CircularUI.Forms;assembly=Tizen.Wearable.CircularUI.Forms" x:Class="EasyTrackTizenAgent.MainPage">
+    <c:CirclePage.Content>
+        <c:CircleScrollView HorizontalOptions="Fill" VerticalOptions="Fill">
+            <StackLayout Orientation="Vertical" Padding="20" VerticalOptions="CenterAndExpand">
+                <Label Text="YouNoOne" 
+                       FontAttributes="Bold" 
+                       TextColor="Orange" 
+                       VerticalOptions="Start" 
+                       HorizontalTextAlignment="Center" 
+                       HorizontalOptions="CenterAndExpand" 
+                       FontSize="Micro"/>
+                
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                    
+                    <ImageButton x:Name="startDataColButton" 
+                                 IsEnabled="True" 
+                                 Clicked="startDataCollectionClick" 
+                                 Source="start.png" 
+                                 Margin="0,0,10,0"/>
+
+                    <ImageButton x:Name="stopDataColButton" 
+                                 IsEnabled="False" 
+                                 Clicked="stopDataCollectionClick"
+                                 IsVisible="False"
+                                 Source="stop.png" 
+                                 Margin="10,0,10,0"/>
+
+                    <ImageButton x:Name="reportDataColButton" 
+                                 IsEnabled="True" 
+                                 Clicked="reportDataCollectionClick"
+                                 Source="upload.png"
+                                 Margin="10,0,0,0"/>
+                </StackLayout>
+                
+                <Label x:Name="statusLabelService" MaxLines="1" FontSize="Micro" TextColor="LightGreen" HorizontalOptions="Fill" VerticalOptions="Fill" BackgroundColor="#222" HorizontalTextAlignment="Center"/>
+                <Label x:Name="statusLabelConnection" MaxLines="1" FontSize="Micro" TextColor="LightGreen" HorizontalOptions="Fill" VerticalOptions="Fill" BackgroundColor="#222" HorizontalTextAlignment="Center"/>
+
+                <Label x:Name="filesCountLabel" Text="FILES: 0" IsVisible="False" FontSize="Micro" TextColor="Orange" HorizontalOptions="Center"/>
+
+                <Button Text="Sign out"
+                            x:Name="signOutButton"
+                            WidthRequest="200"
+                            Clicked="SignOutClicked"
+                            HorizontalOptions="CenterAndExpand"
+                            Font="Large" />
+                <Label x:Name="logLabel" MaxLines="30" Text="STATUS" FontSize="Micro" TextColor="LightGreen" HorizontalOptions="Fill" VerticalOptions="Fill" BackgroundColor="#222" HorizontalTextAlignment="Center" IsVisible="False"/>
+            </StackLayout>
+        </c:CircleScrollView>
+    </c:CirclePage.Content>
+</c:CirclePage>

@@ -1,0 +1,22 @@
+<resources>
+	<application name="kr.ac.inha.nsl.easytrack">
+		<serviceProfile
+      id="/sample/hello" 
+      name="MyMessage" 
+      role="consumer"  
+      version="1.0"
+      serviceLimit="ONE_PEERAGENT" serviceTimeout="30">
+			<supportedTransports>
+				<transport type="TRANSPORT_BT"/>
+				<transport type="TRANSPORT_WIFI"/>
+        <transport type="TRANSPORT_BLE"/>
+			</supportedTransports>
+			<serviceChannel 
+        id="110" 
+        dataRate="low" 
+        priority="low" 
+        reliability="enable">
+			</serviceChannel>
+		</serviceProfile>
+	</application>
+</resources>

@@ -1,0 +1,265 @@
+{
+  "runtimeTarget": {
+    "name": "Tizen,Version=v4.0/",
+    "signature": "28800d3ebc05d6fd2d873c286ea229b4b49ced43"
+  },
+  "compilationOptions": {},
+  "targets": {
+    "Tizen,Version=v4.0": {},
+    "Tizen,Version=v4.0/": {
+      "EasyTrackTizenAgent/1.0.0": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3",
+          "Samsung.Sap": "1.0.0",
+          "SkiaSharp.HarfBuzz": "1.68.0",
+          "SkiaSharp.Views.Forms": "1.68.0",
+          "System.Json": "4.5.0",
+          "Tizen.NET": "5.0.0.14629",
+          "Tizen.NET.Sdk": "1.0.1",
+          "Tizen.Wearable.CircularUI": "1.2.0",
+          "Xamarin.Forms": "3.6.0.344457",
+          "Xamarin.Forms.Platform.Tizen": "2.5.1.444934"
+        },
+        "runtime": {
+          "EasyTrackTizenAgent.dll": {}
+        }
+      },
+      "HarfBuzzSharp/1.4.6.2": {
+        "runtime": {
+          "lib/tizen40/HarfBuzzSharp.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.4.6.2"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/2.0.0": {},
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.0.0"
+        }
+      },
+      "Samsung.Sap/1.0.0": {
+        "dependencies": {
+          "Tizen.NET": "5.0.0.14629"
+        }
+      },
+      "SkiaSharp/1.68.0": {
+        "runtime": {
+          "lib/tizen40/SkiaSharp.dll": {
+            "assemblyVersion": "1.68.0.0",
+            "fileVersion": "1.68.0.0"
+          }
+        }
+      },
+      "SkiaSharp.HarfBuzz/1.68.0": {
+        "dependencies": {
+          "HarfBuzzSharp": "1.4.6.2",
+          "SkiaSharp": "1.68.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/SkiaSharp.HarfBuzz.dll": {
+            "assemblyVersion": "1.68.0.0",
+            "fileVersion": "1.68.0.0"
+          }
+        }
+      },
+      "SkiaSharp.Views/1.68.0": {
+        "dependencies": {
+          "SkiaSharp": "1.68.0"
+        },
+        "runtime": {
+          "lib/tizen40/SkiaSharp.Views.Tizen.dll": {
+            "assemblyVersion": "1.68.0.0",
+            "fileVersion": "1.68.0.0"
+          }
+        }
+      },
+      "SkiaSharp.Views.Forms/1.68.0": {
+        "dependencies": {
+          "SkiaSharp": "1.68.0",
+          "SkiaSharp.Views": "1.68.0",
+          "Xamarin.Forms": "3.6.0.344457"
+        },
+        "runtime": {
+          "lib/tizen40/SkiaSharp.Views.Forms.dll": {
+            "assemblyVersion": "1.68.0.0",
+            "fileVersion": "1.68.0.0"
+          }
+        }
+      },
+      "System.Json/4.5.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Json.dll": {
+            "assemblyVersion": "2.0.6.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "Tizen.NET/5.0.0.14629": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.0.0",
+          "Tizen.NET.API4": "4.0.1.14152"
+        }
+      },
+      "Tizen.NET.API4/4.0.1.14152": {},
+      "Tizen.NET.Sdk/1.0.1": {},
+      "Tizen.Wearable.CircularUI/1.2.0": {
+        "dependencies": {
+          "Tizen.NET": "5.0.0.14629",
+          "Xamarin.Forms": "3.6.0.344457"
+        },
+        "runtime": {
+          "lib/tizen40/Tizen.Wearable.CircularUI.Forms.Renderer.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.0.0"
+          },
+          "lib/tizen40/Tizen.Wearable.CircularUI.Forms.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.0.0"
+          }
+        }
+      },
+      "Xamarin.Forms/3.6.0.344457": {
+        "dependencies": {
+          "Tizen.NET": "5.0.0.14629"
+        },
+        "runtime": {
+          "lib/tizen40/Xamarin.Forms.Core.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          },
+          "lib/tizen40/Xamarin.Forms.Platform.Tizen.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          },
+          "lib/tizen40/Xamarin.Forms.Platform.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/tizen40/Xamarin.Forms.Xaml.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Xamarin.Forms.Platform.Tizen/2.5.1.444934": {
+        "dependencies": {
+          "Tizen.NET": "5.0.0.14629",
+          "Xamarin.Forms": "3.6.0.344457"
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EasyTrackTizenAgent/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HarfBuzzSharp/1.4.6.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XH3SFVkZLaTxgod1pfci5qEwZmq9z9EVSJ2u4GtxB0Hz6Ka1XYREZi29w9FccgEQM67bqsLlvLQBihMIcLkquQ==",
+      "path": "harfbuzzsharp/1.4.6.2",
+      "hashPath": "harfbuzzsharp.1.4.6.2.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VdLJOCXhZaEMY7Hm2GKiULmn7IEPFE4XC5LPSfBVCUIA8YLZVh846gtfBJalsPQF2PlzdD7ecX7DZEulJ402ZQ==",
+      "path": "microsoft.netcore.platforms/2.0.0",
+      "hashPath": "microsoft.netcore.platforms.2.0.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "Samsung.Sap/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8aSkp4Kl2Oq/Juvlpi6E/kuxNVoqoFzumzDSWMLilmn1AHUcXcu6aP8e0MJhBFMb+axUUBO4wpvGZRmRvAlq6g==",
+      "path": "samsung.sap/1.0.0",
+      "hashPath": "samsung.sap.1.0.0.nupkg.sha512"
+    },
+    "SkiaSharp/1.68.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-F8Nh6ws9WGVCddQb509Xl4lCIOu786Oc27t9LxPbuPZU7Olw6jVO2X6iqmHrwY+MZQXQXD4DeK5LU8vfiNwTCg==",
+      "path": "skiasharp/1.68.0",
+      "hashPath": "skiasharp.1.68.0.nupkg.sha512"
+    },
+    "SkiaSharp.HarfBuzz/1.68.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jqXfx0yqAGVy3T3OTyfJMoFSYYzCLEPHRfP4vAM0sXIvK/c+WfeW9MkReLDATuBlIMk1Ng3O/9uZNliBieKYBA==",
+      "path": "skiasharp.harfbuzz/1.68.0",
+      "hashPath": "skiasharp.harfbuzz.1.68.0.nupkg.sha512"
+    },
+    "SkiaSharp.Views/1.68.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XbC4051gj1Q9XdKkzoUKmHKmGprie9KrOVJ9MYPK4Dpk/FDidPpH6Ga0w0uH4x41GTJgShSRQXsdt566b2NIMA==",
+      "path": "skiasharp.views/1.68.0",
+      "hashPath": "skiasharp.views.1.68.0.nupkg.sha512"
+    },
+    "SkiaSharp.Views.Forms/1.68.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-As1LklMPgG+i/y/d5z2EGKOheRHrTVsGCz/2HTvhtIL6GFnXDcApKfxTSNhRNi8OyQJoLgODCpQqjm0tY58j1Q==",
+      "path": "skiasharp.views.forms/1.68.0",
+      "hashPath": "skiasharp.views.forms.1.68.0.nupkg.sha512"
+    },
+    "System.Json/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YIbZuXh5pInsAoI/MzLtAX+6XEqSLaO5NcE3lkM7tcY/Qb9xudamYe1/cg7KMKBRQyk1SFVD2iA2SCZtS7fs9w==",
+      "path": "system.json/4.5.0",
+      "hashPath": "system.json.4.5.0.nupkg.sha512"
+    },
+    "Tizen.NET/5.0.0.14629": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DncZReS3PmHng1ZjJ+ByXaMkO9k/+ryiNyqMWalwJtNc6kj9XeNaBcB3z3H9n1G0CWs3RpNAn2RLNpE6NL6Uyg==",
+      "path": "tizen.net/5.0.0.14629",
+      "hashPath": "tizen.net.5.0.0.14629.nupkg.sha512"
+    },
+    "Tizen.NET.API4/4.0.1.14152": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2awGXYaZ4W+ibz2qF5RbQCywX4m9eyGONUA0Zr+uuadNcPZrcplF12PG7a+k5iaDFvk4jcCq5AL7wYl3FTnI6Q==",
+      "path": "tizen.net.api4/4.0.1.14152",
+      "hashPath": "tizen.net.api4.4.0.1.14152.nupkg.sha512"
+    },
+    "Tizen.NET.Sdk/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GqBp67N1FwQrNAm0egNX4pzhCi7M8Hy2JRoSnXDU3ediTgBxrmyUsUVrkLlSwzm3fzo0GtkppjuMBGqPqczFqA==",
+      "path": "tizen.net.sdk/1.0.1",
+      "hashPath": "tizen.net.sdk.1.0.1.nupkg.sha512"
+    },
+    "Tizen.Wearable.CircularUI/1.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-J1ABPPEdqrNkOHxpVId9eXumlQ+X7aMSTVgvKKaooY21Zp/4WFdPM8NJ3xVpyk28Yzox54VUJZuyqevhCSiaPg==",
+      "path": "tizen.wearable.circularui/1.2.0",
+      "hashPath": "tizen.wearable.circularui.1.2.0.nupkg.sha512"
+    },
+    "Xamarin.Forms/3.6.0.344457": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YTPYiRg5q8Q1AgkjX9mx2/0wfCNyoSfztvvWw9HY4qM1lmOgkAxAbbtY8zi3fCPUXhfZrCAgRvJYNS8VM519kQ==",
+      "path": "xamarin.forms/3.6.0.344457",
+      "hashPath": "xamarin.forms.3.6.0.344457.nupkg.sha512"
+    },
+    "Xamarin.Forms.Platform.Tizen/2.5.1.444934": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UIALjICc+DQsUXbHveKN7gyu84gYAhsNuey6kpl4LCd1Z7ZNi5xEP3pyfiO4c/8KOxz4pR1RtEift5yETjSIqw==",
+      "path": "xamarin.forms.platform.tizen/2.5.1.444934",
+      "hashPath": "xamarin.forms.platform.tizen.2.5.1.444934.nupkg.sha512"
+    }
+  }
+}

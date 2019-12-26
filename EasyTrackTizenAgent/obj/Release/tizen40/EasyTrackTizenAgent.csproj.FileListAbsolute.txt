@@ -1,0 +1,12 @@
+C:\Users\NSL\source\repos\EasyTrack_TizenAgent\EasyTrackTizenAgent\bin\Release\tizen40\EasyTrackTizenAgent.deps.json
+C:\Users\NSL\source\repos\EasyTrack_TizenAgent\EasyTrackTizenAgent\bin\Release\tizen40\EasyTrackTizenAgent.dll
+C:\Users\NSL\source\repos\EasyTrack_TizenAgent\EasyTrackTizenAgent\obj\Release\tizen40\EasyTrackTizenAgent.Properties.Resources.resources
+C:\Users\NSL\source\repos\EasyTrack_TizenAgent\EasyTrackTizenAgent\obj\Release\tizen40\EasyTrackTizenAgent.csproj.GenerateResource.cache
+C:\Users\NSL\source\repos\EasyTrack_TizenAgent\EasyTrackTizenAgent\obj\Release\tizen40\App.xaml.g.cs
+C:\Users\NSL\source\repos\EasyTrack_TizenAgent\EasyTrackTizenAgent\obj\Release\tizen40\AuthenticationPage.xaml.g.cs
+C:\Users\NSL\source\repos\EasyTrack_TizenAgent\EasyTrackTizenAgent\obj\Release\tizen40\MainPage.xaml.g.cs
+C:\Users\NSL\source\repos\EasyTrack_TizenAgent\EasyTrackTizenAgent\obj\Release\tizen40\EasyTrackTizenAgent.csproj.CoreCompileInputs.cache
+C:\Users\NSL\source\repos\EasyTrack_TizenAgent\EasyTrackTizenAgent\obj\Release\tizen40\EasyTrackTizenAgent.AssemblyInfoInputs.cache
+C:\Users\NSL\source\repos\EasyTrack_TizenAgent\EasyTrackTizenAgent\obj\Release\tizen40\EasyTrackTizenAgent.AssemblyInfo.cs
+C:\Users\NSL\source\repos\EasyTrack_TizenAgent\EasyTrackTizenAgent\obj\Release\tizen40\XamlC.stamp
+C:\Users\NSL\source\repos\EasyTrack_TizenAgent\EasyTrackTizenAgent\obj\Release\tizen40\EasyTrackTizenAgent.dll
